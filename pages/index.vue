@@ -49,6 +49,9 @@
         </div>
         <!-- All Posts -->
         <!-- <posts-grid />  -->
+        <div class="content">
+          <h3>Lab Reports</h3>
+        </div>
         <resource-grid
           v-bind="$props"
           :resource="$cms.post"

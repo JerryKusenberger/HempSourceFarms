@@ -7,11 +7,18 @@
     <template v-slot:default="{ item }">
       <post-card
         :title="item.title"
-        :link="item.slug ? `/${item.slug}` : ''"
+        :link="item.url"
         :image="item.featureImage"
         :author="item.author"
         :date="item.date"
       />
+      <!-- <post-card
+        :title="item.title"
+        :link="item.slug ? `/${item.slug}` : ''"
+        :image="item.featureImage"
+        :author="item.author"
+        :date="item.date"
+      /> -->
     </template>
   </resource-grid>
 </template>
