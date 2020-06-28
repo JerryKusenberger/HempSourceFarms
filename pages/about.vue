@@ -2,106 +2,61 @@
   <div id="about-page" class="page-wrapper about-page content-page">
     <site-hero
       title="About Us"
-      subtitle="Example About Page"
+      subtitle=""
       image="/uploads/about-hero.jpg"
     ></site-hero>
-    <main-section theme="sidebar-right">
+    <main-section>
       <template v-slot:default>
         <div class="content">
-          <h3>Fake Heading</h3>
+          <h3>Our Products</h3>
           <p>
-            <strong>
-              Edit this page in<code>/pages/about.vue</code>to fit your needs.
-            </strong>
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
+            Hemp Source Farms, LLC is a boutique farmer offering Oregon grown
+            Deschutes & Umpqua flowers with F1 genetics grown from 100% organic
+            seeds feminized for high CBD content. These sativa strains were
+            outdoor farm cultivated and only fed with super-filtered natural
+            Umpqua River water and grown without the use of any pesticide, spray
+            or synthetic fertilizer to ensure a 100% organic product for our
+            customers. Flowers were air dried, cured and stored in
+            temperature-controlled environments to optimize bud integrity. Our
+            flowers are rated “Top-Shelf”, due to their strains, care in
+            cultivation, and attention to detail specialized processing. Our
+            flowers are packed full of flavor and aroma, have a beautiful feel
+            and aesthetic, plus the desirable cannabinoid content your customers
+            are looking for. We are sure these flowers will add unique value to
+            your assortment and bring customers back for more!
           </p>
 
-          <h3>Another Fake Heading</h3>
+          <h3>Umpqua</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
+            The Umpqua CBD hemp strain has a dense complex flower structure with
+            a fragrance of gas, pine, and citrus. Umpqua is covered with complex
+            trichomes, light green with orange pistols and light-yellow hues.
+            Dominant Terpenes: Myrcene, β-Caryophyllene, a-Pinene, Limonene.
+            Contains less than 0.3% delta-9 THC
           </p>
-          <quote-card />
-          <h3>Still More Fake Content</h3>
+          <h3>Deschutes</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit! Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit.
-            <strong>Alias aut facere harum ipsam</strong> quibusdam quidem
-            quisquam saepe? Alias architecto blanditiis consequatur consequuntur
-            dicta ipsa iste modi provident, quod, similique veritatis.
+            Deschutes offers an earthy yet spicy peppery clove like taste with a
+            floral aroma. This smooth smoke is packed with mutli-colored nuggets
+            bursting with silvery trichomes. Dominant terpenes: B-caryophyllene,
+            Elemene, Myrcene, Guaiol, Humelene Contains less than 0.3% delta-9
+            THC
           </p>
         </div>
-
-        <div class="tile is-ancestor">
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                Cool Stuff We Do
-              </p>
-              <p class="subtitle">
-                Sooo Cool
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                Other Cool Things
-              </p>
-              <p class="subtitle">
-                Just as cool
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">
-                All the cool
-              </p>
-              <p class="subtitle">
-                that is all
-              </p>
-              <figure class="image is-1by1">
-                <opti-image width="500" height="500" />
-              </figure>
-            </article>
-          </div>
-        </div>
-      </template>
-
-      <template v-slot:sidebar>
-        <h3 class="subtitle is-4">
-          Latest Posts
-        </h3>
-        <posts-grid :per-row="1" :number="2" />
       </template>
     </main-section>
   </div>
 </template>
 <script>
-import QuoteCard from '~/components/cards/QuoteCard'
+// import QuoteCard from '~/components/cards/QuoteCard'
 export default {
   head() {
     return {
       title: `About | ${this.$siteConfig.siteName}`
     }
   },
-  components: { QuoteCard }
+  components: {
+    // QuoteCard
+  }
 }
 </script>

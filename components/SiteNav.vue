@@ -6,13 +6,16 @@
   >
     <div class="navbar-brand">
       <nuxt-link class="navbar-item" to="/">
-        <site-logo v-if="$siteConfig.logo === 'logo-component'" />
+        <!-- <site-logo v-if="$siteConfig.logo === 'logo-component'" />
         <img
           v-else
           :src="$siteConfig.logo"
           :alt="$siteConfig.siteName"
           class="logo"
-        />
+        /> -->
+        <div>
+          Hemp Source Farms
+        </div>
       </nuxt-link>
       <hamburger-button @click="active = !active" />
     </div>
@@ -38,9 +41,6 @@
           >
             {{ item.name }}
           </component>
-        </li>
-        <li class="navbar-item site-search-wrapper">
-          <site-search />
         </li>
       </ul>
     </div>
