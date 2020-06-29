@@ -5,8 +5,8 @@ url: /lab-reports/deschutes.pdf
 category:
   - Third Party Integrations
 author: Daniel Kelly
-# date: 2019-07-24T19:59:59.000Z
-featureImage: /lab-reports/deschutes.pdf
+date: 2020-06-29T00:33:48.424Z
+featureImage: /uploads/deschutes.jpg
 ---
 
 Disqus brings the power of commenting to the Awake template. It provides features like moderation, reactions, filtering, and social sharing out of the box. Best of all, it's free and super easy to setup!
