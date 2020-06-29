@@ -20,7 +20,7 @@
     <div class="card-content">
       <div class="media">
         <div class="media-content">
-          <nuxt-link :to="link">
+          <a :href="link">
             <h3
               :class="
                 `title
@@ -31,7 +31,7 @@
             >
               {{ title }}
             </h3>
-            <h4
+            <!-- <h4
               :class="{
                 subtitle: true,
                 'is-6': true,
@@ -39,8 +39,8 @@
               }"
             >
               <slot></slot>
-            </h4>
-          </nuxt-link>
+            </h4> -->
+          </a>
         </div>
       </div>
     </div>
